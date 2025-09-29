@@ -12,8 +12,12 @@
 verbose: false
 config-version: 13
 settings:
-  enable-player-collisions: true
-  save-empty-scoreboard-teams: false
+  spam-limiter:
+    tab-spam-increment: 10
+    tab-spam-limit: 500
+  book-size:
+    page-max: 2560
+    total-multiplier: 0.98
   incoming-packet-spam-threshold: 300
   player-auto-save-rate: -1
   max-player-auto-save-per-tick: -1
@@ -22,15 +26,11 @@ settings:
   use-alternative-luck-formula: false
   min-chunk-load-threads: 2
   suggest-player-names-when-null-tab-completions: true
-  spam-limiter:
-    tab-spam-increment: 10
-    tab-spam-limit: 500
-  book-size:
-    page-max: 2560
-    total-multiplier: 0.98
   sleep-between-chunk-saves: false
   load-permissions-yml-before-plugins: true
   region-file-cache-size: 256
+  enable-player-collisions: true
+  save-empty-scoreboard-teams: false
   bungee-online-mode: true
 messages:
   kick:

@@ -1,0 +1,82 @@
+---- Mohist Crash Report ----
+
+WARNING: coremods are present:
+  CreativePatchingLoader (CreativeCore_v1.10.70_mc1.12.2.jar)
+  weaponlib (mw_2.0-0.4.6.2_mc1.12.2.jar)
+  ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+
+
+Time: 9/29/25 7:30 PM
+Description: Exception in server tick loop
+
+Wrong Minecraft Versions!
+Mod: jei
+Location: ./mods/jei-1.16.5-7.8.0.1009.jar
+Expected: [1.13,)
+Current: Minecraft 1.12.2
+
+Wrong Minecraft Versions!
+Mod: lostcities
+Location: ./mods/lostcities-1.16-4.0.12-beta.jar
+Expected: [1.13,)
+Current: Minecraft 1.12.2
+
+net.minecraftforge.fml.common.MultipleModsErrored
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:311)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:587)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:101)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:331)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:167)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:590)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Mohist version: 1.12.2-aa14cef
+	Operating System: Linux (amd64) version 6.8.0-1030-azure
+	Java Version: 1.8.0_462, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 2441637472 bytes (2328 MB) / 2762997760 bytes (2635 MB) up to 7635730432 bytes (7282 MB)
+	JVM Flags: 2 total; -Xms2G -Xmx8G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	CraftBukkit Information: 
+   Running: 
+   Failed to handle CraftCrashReport: craftbukkit not runs
+
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 15 mods loaded, 15 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                | Version        | Source                              | Signature |
+	|:----- |:----------------- |:-------------- |:----------------------------------- |:--------- |
+	| L     | minecraft         | 1.12.2         | minecraft.jar                       | None      |
+	| L     | mcp               | 9.42           | minecraft.jar                       | None      |
+	| L     | mohist            | 1.12.2-aa14cef | mohist.jar                          | None      |
+	| L     | FML               | 8.0.99.99      | mohist.jar                          | None      |
+	| L     | forge             | 14.23.5.2860   | mohist.jar                          | None      |
+	| L     | creativecoredummy | 1.0.0          | minecraft.jar                       | None      |
+	| L     | obfuscate         | 0.4.2          | minecraft.jar                       | None      |
+	| L     | creativecore      | 1.10.0         | CreativeCore_v1.10.70_mc1.12.2.jar  | None      |
+	| L     | enhancedvisuals   | 1.3.0          | EnhancedVisuals_v1.4.4_mc1.12.2.jar | None      |
+	| L     | cgm               | 0.15.3         | guns-0.15.3-1.12.2.jar              | None      |
+	| L     | incontrol         | 3.9.18         | incontrol-1.12-3.9.18.jar           | None      |
+	| L     | jei               | 1.0            | jei-1.16.5-7.8.0.1009.jar           | None      |
+	| L     | lostcities        | 1.0            | lostcities-1.16-4.0.12-beta.jar     | None      |
+	| L     | mw                | 0.4.6.2        | mw_2.0-0.4.6.2_mc1.12.2.jar         | None      |
+	| L     | srparasites       | 1.9.21         | SRParasites-1.12.2v1.9.21.jar       | None      |
+
+	Loaded coremods (and transformers): 
+CreativePatchingLoader (CreativeCore_v1.10.70_mc1.12.2.jar)
+  
+weaponlib (mw_2.0-0.4.6.2_mc1.12.2.jar)
+  com.vicmatskiv.weaponlib.core.WeaponlibClassTransformer
+ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'Mohist'
+	Type: Dedicated Server (map_server.txt)
