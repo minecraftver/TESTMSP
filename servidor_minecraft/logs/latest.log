@@ -7708,3 +7708,62 @@ java.lang.ArrayIndexOutOfBoundsException: 1
 [20:36:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Survival Mode]
 [20:36:18] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode creative
 [20:36:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Creative Mode]
+[20:36:42] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /time set 0
+[20:36:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set the time to 0]
+[20:36:48] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode survival
+[20:36:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Survival Mode]
+[20:37:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:37:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode creative
+[20:37:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Creative Mode]
+[20:37:29] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode survival
+[20:37:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Survival Mode]
+[20:40:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NeizanJM was slain by Assimilated Enderman
+[20:40:14] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode creative
+[20:40:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Creative Mode]
+[20:41:09] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode survival
+[20:41:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Survival Mode]
+[20:41:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NeizanJM was killed by magic
+[20:41:26] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode creative
+[20:41:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Creative Mode]
+[20:41:59] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode survival
+[20:41:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Survival Mode]
+[20:42:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:42:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NeizanJM was slain by Assimilated Enderman
+[20:42:21] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode creative
+[20:42:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Creative Mode]
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Skeleton pos=BlockPos{x=196, y=59, z=10}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Spider pos=BlockPos{x=197, y=77, z=10}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Skeleton pos=BlockPos{x=197, y=89, z=10}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Zombie pos=BlockPos{x=197, y=101, z=9}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Skeleton pos=BlockPos{x=197, y=107, z=9}
+[20:42:26] [Server thread/DEBUG] [lostcities]: createLootChest: loot=minecraft:chests/simple_dungeon pos=BlockPos{x=196, y=78, z=13}
+[20:42:26] [Server thread/DEBUG] [lostcities]: createLootChest: loot=lostcities:chests/lostcitychest pos=BlockPos{x=199, y=102, z=11}
+[20:42:26] [Server thread/DEBUG] [lostcities]: createLootChest: loot=minecraft:chests/desert_pyramid pos=BlockPos{x=199, y=108, z=11}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Spider pos=BlockPos{x=202, y=71, z=10}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Zombie pos=BlockPos{x=201, y=77, z=10}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Spider pos=BlockPos{x=201, y=89, z=10}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Zombie pos=BlockPos{x=202, y=95, z=10}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Spider pos=BlockPos{x=201, y=101, z=9}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Spider pos=BlockPos{x=201, y=107, z=9}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Skeleton pos=BlockPos{x=274, y=81, z=12}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Spider pos=BlockPos{x=276, y=81, z=12}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Spider pos=BlockPos{x=277, y=83, z=10}
+[20:42:26] [Server thread/DEBUG] [lostcities]: createLootChest: loot=minecraft:chests/simple_dungeon pos=BlockPos{x=276, y=84, z=13}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Zombie pos=BlockPos{x=281, y=83, z=10}
+[20:42:26] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Spider pos=BlockPos{x=282, y=89, z=10}
+[20:43:08] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode survival
+[20:43:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Survival Mode]
+[20:43:13] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /weather clear
+[20:43:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Changing to clear weather]
+[20:43:57] [Server thread/DEBUG] [lostcities]: generateLootSpawners: mob=Skeleton pos=BlockPos{x=260, y=65, z=566}
+[20:43:57] [Server thread/DEBUG] [lostcities]: createLootChest: loot=minecraft:chests/nether_bridge pos=BlockPos{x=259, y=66, z=565}
+[20:44:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NeizanJM was slain by Assimilated Human
+[20:44:31] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /weather rain
+[20:44:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Changing to rainy weather]
+[20:44:38] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode creative
+[20:44:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Creative Mode]
+[20:45:24] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode survival
+[20:45:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Survival Mode]
+[20:45:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NeizanJM fell from a high place
+[20:45:39] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode creative
+[20:45:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Creative Mode]

@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-09-29 20:36:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2025-09-29 20:26:19 +0000"
@@ -85,6 +91,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "enchanted_golden_apple": "2025-09-29 20:36:50 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2025-09-29 20:26:19 +0000"
@@ -131,6 +143,7 @@
     "criteria": {
       "forest": "2025-09-29 20:10:29 +0000",
       "swampland": "2025-09-29 20:18:29 +0000",
+      "forest_hills": "2025-09-29 20:40:20 +0000",
       "plains": "2025-09-29 20:10:48 +0000",
       "taiga": "2025-09-29 20:22:24 +0000",
       "taiga_hills": "2025-09-29 20:22:27 +0000",
