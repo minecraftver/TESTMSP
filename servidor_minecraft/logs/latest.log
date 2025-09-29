@@ -696,3 +696,37 @@
 [16:55:17] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarted took 0.003s
 [16:55:17] [Server thread/INFO] [Mohist]: Timings Reset
 [17:00:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:05:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:05:39] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player NeizanJM is a1933d30-05d2-35f5-8e7f-6579606af1f0
+[17:05:40] [Server thread/TRACE] [FML]: Handshake channel activating
+[17:05:40] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[17:05:40] [Server thread/DEBUG] [FML]:   Next: HELLO
+[17:05:40] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[17:05:40] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[17:05:40] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,srparasites@1.9.21,mcp@9.42
+[17:05:40] [Netty Epoll Server IO #2/INFO] [FML]: Forge Mod Loader has successfully loaded [mohist] modCLIENT
+[17:05:40] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: WAITINGCACK
+[17:05:40] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[17:05:40] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: COMPLETE
+[17:05:40] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[17:05:40] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: DONE
+[17:05:40] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[17:05:40] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:05:40] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: NeizanJM[/192.168.194.5:51634] logged in with entity id 2148 at ([world]237.5, 88.0, 114.5)
+[17:05:40] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[17:05:51] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /op NeizanJM
+[17:05:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /time set 0
+[17:06:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Opped NeizanJM
+[17:06:52] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode creative
+[17:06:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Creative Mode]
+[17:07:15] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /rp teleport mia
+[17:07:55] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode survival
+[17:07:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Survival Mode]
+[17:08:05] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode survival
+[17:08:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Survival Mode]
+[17:08:08] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /gamemode creative
+[17:08:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set own game mode to Creative Mode]
+[17:08:14] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NeizanJM issued server command: /time set night
+[17:08:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NeizanJM: Set the time to 13000]
+[17:10:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:15:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
