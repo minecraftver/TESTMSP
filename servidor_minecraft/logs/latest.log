@@ -1,139 +1,698 @@
-[05:28:07] [main/INFO] [STDOUT/]: Update in check...
-[05:28:07] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
-[05:28:07] [main/INFO] [STDOUT/]: [!] Can't connect to the ci to check updates or unable to download the update.
-[05:28:07] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 8c7caaf7, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]
-[05:28:07] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 11.0.28 by Ubuntu
-[05:28:08] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[05:28:08] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/TESTMSP/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[05:28:10] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[05:28:22] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
-[05:28:22] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
-[05:28:22] [modloading-worker-1/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
-[05:28:26] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for majruszs_difficulty:giant, use EntityAttributeCreationEvent instead.
-[05:28:26] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for majruszs_difficulty:pillager_wolf, use EntityAttributeCreationEvent instead.
-[05:28:26] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for majruszs_difficulty:elite_skeleton, use EntityAttributeCreationEvent instead.
-[05:28:26] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for majruszs_difficulty:sky_keeper, use EntityAttributeCreationEvent instead.
-[05:28:26] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for majruszs_difficulty:creeperling, use EntityAttributeCreationEvent instead.
-[05:28:26] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:creeper_minion, use EntityAttributeCreationEvent instead.
-[05:28:26] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:endersoul_clone, use EntityAttributeCreationEvent instead.
-[05:28:26] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_creeper, use EntityAttributeCreationEvent instead.
-[05:28:26] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_enderman, use EntityAttributeCreationEvent instead.
-[05:28:26] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_skeleton, use EntityAttributeCreationEvent instead.
-[05:28:26] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_snow_golem, use EntityAttributeCreationEvent instead.
-[05:28:26] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_zombie, use EntityAttributeCreationEvent instead.
-[05:28:26] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:spider_pig, use EntityAttributeCreationEvent instead.
-[05:28:31] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05:28:32] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mohist-1.16.5-8c7caaf7-universal.jar, bukkit, MutantBeasts-1.16.4-1.1.3 (1).jar, majrusz-library-1.16.4-2.0.1.jar, majruszs-difficulty-1.16.4-1.1.0.jar, jei-1.16.5-7.8.0.1009 (1).jar, [1.16.5] SecurityCraft v1.10 (2).jar
-[05:28:37] [Worker-Main-2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1,560 recipes
-[05:28:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[05:28:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[05:28:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[05:28:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[05:28:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
-[05:28:42] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[05:28:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:28:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[05:28:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:28:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:28:43] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-8c7caaf7 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.42)
-[05:28:44] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[05:28:44] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[05:28:44] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[05:28:45] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
-[05:28:48] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
-[05:28:54] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@37404da2]
-[05:28:54] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
-[05:28:54] [Server thread/INFO] [br.net.fabiozumbi12.RedProtect.Bukkit.RedProtect/]: [RedProtect] Loading RedProtect v7.7.2
-[05:28:54] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
-[05:28:54] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[05:28:55] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Using the Bukkit Permissions API.
-[05:29:00] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] ====================================================
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  WorldEdit works better if you use Paper 
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  as your server software. 
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper offers significant performance improvements,
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  bug fixes, security enhancements and optional
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  features for server owners to enhance their server.
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  better at diagnosing lag problems over v1.
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  All of your plugins should still work, and the
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[05:29:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] ====================================================
-[05:29:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[05:29:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[05:29:07] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[05:29:08] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 14%
-[05:29:09] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 67%
-[05:29:09] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5,762 ms
-[05:29:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_nether
-[05:29:11] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[05:29:12] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 56%
-[05:29:13] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[05:29:17] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
-[05:29:18] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
-[05:29:19] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
-[05:29:19] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
-[05:29:20] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
-[05:29:20] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 94%
-[05:29:21] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
-[05:29:21] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 11,869 ms
-[05:29:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_end
-[05:29:22] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[05:29:22] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[05:29:23] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
-[05:29:24] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2,506 ms
-[05:29:24] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
-[05:29:25] [Server thread/ERROR] [com.sk89q.worldedit.WorldEdit/]: No TreeType mapping for TreeGenerator.TreeType.MANGROVE
-[05:29:25] [Server thread/ERROR] [com.sk89q.worldedit.WorldEdit/]: No TreeType mapping for TreeGenerator.TreeType.TALL_MANGROVE
-[05:29:25] [Server thread/ERROR] [com.sk89q.worldedit.WorldEdit/]: No TreeType mapping for TreeGenerator.TreeType.CHERRY
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world) Lighters are PERMITTED.
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world) Lava fire is PERMITTED.
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'world'
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM-1) TNT ignition is PERMITTED.
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM-1) Lighters are PERMITTED.
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM-1) Lava fire is PERMITTED.
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM-1) Fire spread is UNRESTRICTED.
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'DIM-1'
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM1) TNT ignition is PERMITTED.
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM1) Lighters are PERMITTED.
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM1) Lava fire is PERMITTED.
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM1) Fire spread is UNRESTRICTED.
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'DIM1'
-[05:29:25] [Server thread/INFO] [com.sk89q.worldguard.WorldGuard/]: [WorldGuard] Loading region data...
-[05:29:26] [Server thread/INFO] [br.net.fabiozumbi12.RedProtect.Bukkit.RedProtect/]: [RedProtect] Enabling RedProtect v7.7.2
-[05:29:28] [Server thread/INFO] [/]: [RedProtect] Server version: 1.16.5-R0.1-SNAPSHOT
-[05:29:28] [Server thread/INFO] [/]: [RedProtect] All configurations loaded!
-[05:29:28] [Server thread/INFO] [/]: [RedProtect] Language file loaded - Using: ES-ES
-[05:29:28] [Server thread/INFO] [/]: [RedProtect] Registering commands...
-[05:29:29] [Server thread/INFO] [/]: [RedProtect] Registering listeners...
-[05:29:29] [Server thread/INFO] [/]: [RedProtect] WorldEdit found. Hooked.
-[05:29:29] [Server thread/INFO] [/]: [RedProtect] WorldGuard version 6 found. Hooked.
-[05:29:29] [Server thread/INFO] [/]: [RedProtect] - Loading world's regions...
-[05:29:30] [Server thread/INFO] [/]: [RedProtect] - Loading DIM-1's regions...
-[05:29:30] [Server thread/INFO] [/]: [RedProtect] - Loading DIM1's regions...
-[05:29:30] [Server thread/INFO] [/]: [RedProtect] Auto-save Scheduler: Saving file database every 60 minutes!
-[05:29:30] [Server thread/INFO] [/]: [RedProtect] There are 2 regions on (file) database!
-[05:29:30] [Server thread/INFO] [/]: [RedProtect] Helper version: Latest
-[05:29:30] [Server thread/INFO] [/]: [RedProtect] Loading GuiFlags for 1.14+
-[05:29:30] [Server thread/INFO] [/]: [RedProtect] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/RedProtect
-[05:29:30] [Server thread/INFO] [/]: [RedProtect] Loading API...
-[05:29:30] [Server thread/INFO] [/]: [RedProtect] API Loaded!
-[05:29:30] [Server thread/INFO] [/]:  _   _  _   _   _   _  _ _  _  _ _ _  __
-[05:29:30] [Server thread/INFO] [/]: |_| |_ | \ |_| |_| | |  |  |_ |   |    /
-[05:29:30] [Server thread/INFO] [/]: | \ |_ |_/ |   | \ |_|  |  |_ |_  |   /
-[05:29:30] [Server thread/INFO] [/]: » RedProtect v7.7.2 enabled
-[05:29:30] [Server thread/INFO] [/]: 
-[05:29:30] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[05:29:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (27.105s)! For help, type "help"
-[05:29:44] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player NeizanJM is a1933d30-05d2-35f5-8e7f-6579606af1f0
-[05:29:44] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 7 mods : minecraft, mutantbeasts, forge, majrusz_library, majruszs_difficulty, securitycraft, jei
-[05:29:45] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: NeizanJM[/192.168.194.5:52223] logged in with entity id 317 at (-6.277, 64, -104.439)
-[05:36:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: NeizanJM has made the advancement [Monster Hunter]
-[05:38:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made NeizanJM a server operator
+[16:54:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:54:45] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:54:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:54:45] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[16:54:45] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[16:54:45] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_462, running on Linux:amd64:6.8.0-1030-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[16:54:45] [main/DEBUG] [FML]: Java classpath at launch is:
+[16:54:45] [main/DEBUG] [FML]:     mohist.jar
+[16:54:45] [main/DEBUG] [FML]: Java library path at launch is:
+[16:54:45] [main/DEBUG] [FML]:     /tmp/_MEIH9hXgR
+[16:54:45] [main/DEBUG] [FML]:     /usr/java/packages/lib/amd64
+[16:54:45] [main/DEBUG] [FML]:     /usr/lib/x86_64-linux-gnu/jni
+[16:54:45] [main/DEBUG] [FML]:     /lib/x86_64-linux-gnu
+[16:54:45] [main/DEBUG] [FML]:     /usr/lib/x86_64-linux-gnu
+[16:54:45] [main/DEBUG] [FML]:     /usr/lib/jni
+[16:54:45] [main/DEBUG] [FML]:     /lib
+[16:54:45] [main/DEBUG] [FML]:     /usr/lib
+[16:54:45] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: ./libraries
+[16:54:45] [main/DEBUG] [FML]: Cleaning up mods folder: ./mods
+[16:54:45] [main/DEBUG] [FML]: Examining file: SRParasites-1.12.2v1.9.21.jar
+[16:54:45] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[16:54:45] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[16:54:45] [main/DEBUG] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[16:54:45] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[16:54:45] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[16:54:45] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[16:54:45] [main/DEBUG] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[16:54:45] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[16:54:45] [main/DEBUG] [FML]: Instantiating coremod class MohistCorePlugin
+[16:54:45] [main/DEBUG] [FML]: The coremod MohistCorePlugin (com.mohistmc.forge.MohistCorePlugin) is not signed!
+[16:54:45] [main/DEBUG] [FML]: Enqueued coremod MohistCorePlugin
+[16:54:45] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[16:54:45] [main/DEBUG] [FML]: Discovering coremods
+[16:54:45] [main/INFO] [FML]: Searching /workspaces/TESTMSP/servidor_minecraft/./mods for mods
+[16:54:45] [main/DEBUG] [FML]:   Adding SRParasites-1.12.2v1.9.21.jar to the mod list
+[16:54:45] [main/DEBUG] [FML]: Examining for coremod candidacy SRParasites-1.12.2v1.9.21.jar
+[16:54:45] [main/DEBUG] [FML]: Not found coremod data in SRParasites-1.12.2v1.9.21.jar
+[16:54:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:54:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:54:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:54:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:54:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:54:45] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[16:54:45] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[16:54:45] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[16:54:45] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[16:54:45] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[16:54:45] [main/DEBUG] [FML]: Injection complete
+[16:54:45] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[16:54:45] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[16:54:47] [main/DEBUG] [FML]: Read 1436 binary patches
+[16:54:47] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36076 records
+[16:54:47] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[16:54:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:54:47] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[16:54:47] [main/DEBUG] [FML]: Injection complete
+[16:54:47] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[16:54:47] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[16:54:47] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[16:54:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:54:47] [main/DEBUG] [FML]: Injecting coremod MohistCorePlugin \{com.mohistmc.forge.MohistCorePlugin\} class transformers
+[16:54:47] [main/TRACE] [FML]: Registering transformer com.mohistmc.forge.SendPacketTransformer
+[16:54:47] [main/TRACE] [FML]: Registering transformer com.mohistmc.bukkit.pluginfix.MyPetTransformer
+[16:54:47] [main/DEBUG] [FML]: Injection complete
+[16:54:47] [main/DEBUG] [FML]: Running coremod plugin for MohistCorePlugin \{com.mohistmc.forge.MohistCorePlugin\}
+[16:54:47] [main/DEBUG] [FML]: Running coremod plugin MohistCorePlugin
+[16:54:47] [main/DEBUG] [FML]: Coremod plugin class MohistCorePlugin run successfully
+[16:54:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:54:47] [main/DEBUG] [FML]: Loaded 404 rules from AccessTransformer config file forge_at.cfg
+[16:54:47] [main/DEBUG] [FML]: Validating minecraft
+[16:54:48] [main/DEBUG] [FML]: Minecraft validated, launching...
+[16:54:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:54:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:54:49] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:54:52] [main/DEBUG] [FML]: Creating vanilla freeze snapshot
+[16:54:52] [main/DEBUG] [FML]: Vanilla freeze snapshot created
+[16:54:53] [Server thread/INFO] [Mohist]: Starting minecraft server version 1.12.2
+[16:54:53] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 `Initialized
+[16:54:53] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients
+[16:54:53] [Server thread/INFO] [FML]: Replaced 1,227 ore ingredients
+[16:54:53] [Server thread/DEBUG] [FML]: No config directory found, creating one: /workspaces/TESTMSP/servidor_minecraft/config
+[16:54:53] [Server thread/INFO] [FML]: Config directory created successfully
+[16:54:53] [Server thread/DEBUG] [FML]: File /workspaces/TESTMSP/servidor_minecraft/config/injectedDependencies.json not found. No dependencies injected
+[16:54:53] [Server thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[16:54:53] [Server thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[16:54:53] [Server thread/DEBUG] [FML]: Found a minecraft related file at /workspaces/TESTMSP/servidor_minecraft/mohist.jar, examining for mod candidates
+[16:54:53] [Server thread/DEBUG] [FML]: Found a minecraft related file at /workspaces/TESTMSP/servidor_minecraft/libraries/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar, examining for mod candidates
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/com/typesafe/config/1.3.1/config-1.3.1.jar
+[16:54:53] [Server thread/DEBUG] [FML]: Found a minecraft related file at /workspaces/TESTMSP/servidor_minecraft/libraries/commons-lang/commons-lang/2.6/commons-lang-2.6.jar, examining for mod candidates
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/jline/jline/2.13/jline-2.13.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/mysql/mysql-connector-java/5.1.46/mysql-connector-java-5.1.46.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/net/md-5/bungeecord-chat/1.12-SNAPSHOT/bungeecord-chat-1.12-SNAPSHOT.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/net/md-5/SpecialSource/1.8.5/SpecialSource-1.8.5.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+[16:54:53] [Server thread/DEBUG] [FML]: Found a minecraft related file at /workspaces/TESTMSP/servidor_minecraft/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar, examining for mod candidates
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar
+[16:54:53] [Server thread/DEBUG] [FML]: Found a minecraft related file at /workspaces/TESTMSP/servidor_minecraft/libraries/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar, examining for mod candidates
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.21.0.1/sqlite-jdbc-3.21.0.1.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar
+[16:54:53] [Server thread/DEBUG] [FML]: Found a minecraft related file at /workspaces/TESTMSP/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar, examining for mod candidates
+[16:54:53] [Server thread/DEBUG] [FML]: Found a minecraft related file at /workspaces/TESTMSP/servidor_minecraft/libraries/org/slf4j/slf4j-nop/1.7.30/slf4j-nop-1.7.30.jar, examining for mod candidates
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/io/netty/netty-all/4.1.24.Final/netty-all-4.1.24.Final.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar
+[16:54:53] [Server thread/TRACE] [FML]: Skipping known library file /workspaces/TESTMSP/servidor_minecraft/libraries/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar
+[16:54:53] [Server thread/DEBUG] [FML]: Found a minecraft related file at /workspaces/TESTMSP/servidor_minecraft/libraries/net/minecraft/1.12.2/minecraft_server.1.12.2.jar, examining for mod candidates
+[16:54:53] [Server thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[16:54:53] [Server thread/INFO] [FML]: Searching /workspaces/TESTMSP/servidor_minecraft/./mods for mods
+[16:54:53] [Server thread/DEBUG] [FML]:   Adding SRParasites-1.12.2v1.9.21.jar to the mod list
+[16:54:53] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file SRParasites-1.12.2v1.9.21.jar
+[16:54:53] [Server thread/DEBUG] [FML]: Examining file mohist.jar for potential mods
+[16:54:53] [Server thread/DEBUG] [FML]: The mod container mohist.jar appears to be missing an mcmod.info file
+[16:54:54] [Server thread/DEBUG] [FML]: Examining file json-simple-1.1.1.jar for potential mods
+[16:54:54] [Server thread/DEBUG] [FML]: The mod container json-simple-1.1.1.jar appears to be missing an mcmod.info file
+[16:54:54] [Server thread/DEBUG] [FML]: Examining file commons-lang-2.6.jar for potential mods
+[16:54:54] [Server thread/DEBUG] [FML]: The mod container commons-lang-2.6.jar appears to be missing an mcmod.info file
+[16:54:54] [Server thread/DEBUG] [FML]: Examining file maven-artifact-3.5.3.jar for potential mods
+[16:54:54] [Server thread/DEBUG] [FML]: The mod container maven-artifact-3.5.3.jar appears to be missing an mcmod.info file
+[16:54:54] [Server thread/DEBUG] [FML]: Examining file asm-debug-all-5.2.jar for potential mods
+[16:54:54] [Server thread/DEBUG] [FML]: The mod container asm-debug-all-5.2.jar appears to be missing an mcmod.info file
+[16:54:54] [Server thread/DEBUG] [FML]: Examining file slf4j-api-1.7.30.jar for potential mods
+[16:54:54] [Server thread/DEBUG] [FML]: The mod container slf4j-api-1.7.30.jar appears to be missing an mcmod.info file
+[16:54:54] [Server thread/DEBUG] [FML]: Examining file slf4j-nop-1.7.30.jar for potential mods
+[16:54:54] [Server thread/DEBUG] [FML]: The mod container slf4j-nop-1.7.30.jar appears to be missing an mcmod.info file
+[16:54:54] [Server thread/DEBUG] [FML]: Examining file minecraft_server.1.12.2.jar for potential mods
+[16:54:54] [Server thread/DEBUG] [FML]: The mod container minecraft_server.1.12.2.jar appears to be missing an mcmod.info file
+[16:54:56] [Server thread/DEBUG] [FML]: Examining file SRParasites-1.12.2v1.9.21.jar for potential mods
+[16:54:56] [Server thread/TRACE] [FML]: Located mcmod.info file in file SRParasites-1.12.2v1.9.21.jar
+[16:54:56] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.dhanantry.scapeandrunparasites.SRPMain) - loading
+[16:54:56] [Server thread/TRACE] [FML]: Parsed dependency info for srparasites: Requirements: [] After:[] Before:[]
+[16:54:56] [Server thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[16:54:56] [Server thread/TRACE] [FML]: Received a system property request {0}
+[16:54:56] [Server thread/TRACE] [FML]: System property request managing the state of 0 mods
+[16:54:56] [Server thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[16:54:56] [Server thread/DEBUG] [FML]: Missing English translation for mohist: assets/mohist/lang/.lang
+[16:54:56] [Server thread/DEBUG] [FML]: Missing English translation for FML: assets/fml/lang/.lang
+[16:54:56] [Server thread/DEBUG] [FML]: Enabling mod srparasites
+[16:54:56] [Server thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[16:54:56] [Server thread/TRACE] [FML]: The mod {0} does not wish to run in Minecraft version {1}
+[16:54:56] [Server thread/TRACE] [FML]: All mod requirements are satisfied
+[16:54:56] [Server thread/TRACE] [FML]: Mod sorting completed successfully
+[16:54:56] [Server thread/DEBUG] [FML]: Mod sorting data
+[16:54:56] [Server thread/DEBUG] [FML]: 	srparasites(Scape and Run Parasites:1.9.21): SRParasites-1.12.2v1.9.21.jar ()
+[16:54:56] [Server thread/DEBUG] [FML]: Loading @Config anotation data
+[16:54:56] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraft
+[16:54:56] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraft
+[16:54:56] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.005s
+[16:54:56] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcp
+[16:54:56] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcp
+[16:54:56] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[16:54:56] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mohist
+[16:54:56] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mohist
+[16:54:56] [Server thread/DEBUG] [FML]: Bar Step: Construction - Mohist took 0.001s
+[16:54:56] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FML
+[16:54:56] [Server thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModLists
+[16:54:56] [Server thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[16:54:56] [Server thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)
+[16:54:56] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded [minecraft, mcp, mohist, FML, forge, srparasites] modCLIENT
+[16:54:56] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded [minecraft, mcp, mohist, FML, forge, srparasites] modSERVER
+[16:54:56] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FML
+[16:54:56] [Server thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 0.261s
+[16:54:56] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forge
+[16:54:56] [Server thread/DEBUG] [forge]: Loading Vanilla annotations: null
+[16:54:56] [Server thread/DEBUG] [forge]: Preloading CrashReport Classes
+[16:54:56] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable
+[16:54:56] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[16:54:56] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Column
+[16:54:56] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Row
+[16:54:56] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[16:54:56] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[16:54:56] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[16:54:56] [Server thread/TRACE] [FML]: Mod forge is using network checker : No network checking performed
+[16:54:56] [Server thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connection
+[16:54:56] [Server thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2860)
+[16:54:56] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE
+[16:54:56] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forge
+[16:54:56] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.019s
+[16:54:56] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod srparasites
+[16:54:56] [Server thread/TRACE] [FML]: Mod srparasites is using network checker : Accepting version 1.9.21
+[16:54:56] [Server thread/TRACE] [FML]: Testing mod srparasites to verify it accepts its own version in a remote connection
+[16:54:56] [Server thread/TRACE] [FML]: The mod srparasites accepts its own version (1.9.21)
+[16:54:56] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into srparasites
+[16:54:56] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for srparasites
+[16:54:56] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.dhanantry.scapeandrunparasites.init.SRPPotions$RegistrationHandler for mod srparasites
+[16:54:56] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.dhanantry.scapeandrunparasites.init.SRPPotions$RegistrationHandler
+[16:54:56] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.dhanantry.scapeandrunparasites.init.SRPItems$RegistrationHandler for mod srparasites
+[16:54:56] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.dhanantry.scapeandrunparasites.init.SRPItems$RegistrationHandler
+[16:54:56] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.dhanantry.scapeandrunparasites.init.SRPBlocks$RegistrationHandler for mod srparasites
+[16:54:56] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.dhanantry.scapeandrunparasites.init.SRPBlocks$RegistrationHandler
+[16:54:56] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.dhanantry.scapeandrunparasites.init.SRPEntities$RegistrationHandler for mod srparasites
+[16:54:56] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.dhanantry.scapeandrunparasites.init.SRPEntities$RegistrationHandler
+[16:54:56] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.dhanantry.scapeandrunparasites.init.SRPSpawning$DimensionHandler for mod srparasites
+[16:54:56] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.dhanantry.scapeandrunparasites.init.SRPSpawning$DimensionHandler
+[16:54:56] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.dhanantry.scapeandrunparasites.init.SRPBiomes$RegistrationHandler for mod srparasites
+[16:54:56] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.dhanantry.scapeandrunparasites.init.SRPBiomes$RegistrationHandler
+[16:54:56] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into srparasites for type INSTANCE
+[16:54:56] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod srparasites
+[16:54:56] [Server thread/DEBUG] [FML]: Bar Step: Construction - Scape and Run Parasites took 0.152s
+[16:54:56] [Server thread/DEBUG] [FML]: Bar Finished: Construction took 0.438s
+[16:54:56] [Server thread/DEBUG] [FML]: Mod signature data
+[16:54:56] [Server thread/DEBUG] [FML]:  	Valid Signatures:
+[16:54:56] [Server thread/DEBUG] [FML]:  	 Missing Signatures:
+[16:54:56] [Server thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[16:54:56] [Server thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[16:54:56] [Server thread/DEBUG] [FML]: 		mohist	(Mohist	1.12.2-aa14cef)	mohist.jar
+[16:54:56] [Server thread/DEBUG] [FML]: 		FML	(Forge Mod Loader	8.0.99.99)	mohist.jar
+[16:54:56] [Server thread/DEBUG] [FML]: 		forge	(Minecraft Forge	14.23.5.2860)	mohist.jar
+[16:54:56] [Server thread/DEBUG] [FML]: 		srparasites	(Scape and Run Parasites	1.9.21)	SRParasites-1.12.2v1.9.21.jar
+[16:54:56] [Server thread/INFO] [FML]: Processing Object Holder annotations
+[16:54:56] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[16:54:56] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[16:54:56] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[16:54:56] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraft
+[16:54:56] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraft
+[16:54:56] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.001s
+[16:54:56] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcp
+[16:54:56] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcp
+[16:54:56] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[16:54:56] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mohist
+[16:54:56] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mohist
+[16:54:56] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Mohist took 0.001s
+[16:54:56] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FML
+[16:54:56] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FML
+[16:54:56] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[16:54:56] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forge
+[16:54:56] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[16:54:56] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forge
+[16:54:56] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.080s
+[16:54:56] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod srparasites
+[16:54:57] [Server thread/INFO] [srparasites]: [MOD COMPATIBILITY] Checked for 2 mods that may be in the list that need patches or alternative code
+[16:54:57] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod srparasites
+[16:54:57] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Scape and Run Parasites took 0.305s
+[16:54:57] [Server thread/DEBUG] [FML]: Bar Finished: PreInitialization took 0.388s
+[16:54:57] [Server thread/INFO] [FML]: Applying holder lookups
+[16:54:57] [Server thread/INFO] [FML]: Holder lookups applied
+[16:54:57] [Server thread/INFO] [FML]: Applying holder lookups
+[16:54:57] [Server thread/INFO] [FML]: Holder lookups applied
+[16:54:57] [Server thread/INFO] [FML]: Applying holder lookups
+[16:54:57] [Server thread/INFO] [FML]: Holder lookups applied
+[16:54:57] [Server thread/INFO] [FML]: Applying holder lookups
+[16:54:57] [Server thread/INFO] [FML]: Holder lookups applied
+[16:54:57] [Server thread/INFO] [FML]: Injecting itemstacks
+[16:54:57] [Server thread/INFO] [FML]: Injecting injection complete
+[16:54:57] [Server thread/INFO] [FML]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with com.mohistmc.forge.BukkitPermissionsHandler
+[16:54:57] [Server thread/INFO] [FML]: Registered Forge API Permission Handler(Bukkit)
+[16:54:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading configuration file(server.properties)
+[16:54:57] [Server thread/INFO] [Mohist]: Default gamemode type:SURVIVAL
+[16:54:58] [Server thread/INFO] [Mohist]: This server is runningMohistversion git-Mohist-1.12.2-aa14cef (MC: 1.12.2)(Implementing API version1.12.2-R0.1-SNAPSHOT)
+[16:54:58] [Server thread/INFO] [Spigot]: Server Player Sample Count:12
+[16:54:58] [Server thread/INFO] [Mohist]: Using 4 threads for Netty based IO
+[16:54:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[16:54:58] [Server thread/INFO] [Mohist]: Starting Minecraft server on 0.0.0.0:25565
+[16:54:58] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[16:54:58] [Server thread/INFO] [FML]: Applying holder lookups
+[16:54:58] [Server thread/INFO] [FML]: Holder lookups applied
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod minecraft
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod minecraft
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft took 0.001s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod mcp
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod mcp
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Coder Pack took 0.004s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod mohist
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod mohist
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Mohist took 0.000s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod FML
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod FML
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod forge
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod forge
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod srparasites
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod srparasites
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Scape and Run Parasites took 0.000s
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Finished: Initialization took 0.007s
+[16:54:58] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod minecraft
+[16:54:58] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod minecraft
+[16:54:58] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod minecraft
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft took 0.007s
+[16:54:58] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod mcp
+[16:54:58] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod mcp
+[16:54:58] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod mcp
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.000s
+[16:54:58] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod mohist
+[16:54:58] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod mohist
+[16:54:58] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod mohist
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Mohist took 0.001s
+[16:54:58] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod FML
+[16:54:58] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod FML
+[16:54:58] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod FML
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.003s
+[16:54:58] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod forge
+[16:54:58] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod forge
+[16:54:58] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod forge
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.001s
+[16:54:58] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod srparasites
+[16:54:58] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod srparasites
+[16:54:58] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod srparasites
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Scape and Run Parasites took 0.000s
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Finished: InterModComms$IMC took 0.013s
+[16:54:58] [Server thread/INFO] [FML]: Injecting itemstacks
+[16:54:58] [Server thread/INFO] [FML]: Injecting injection complete
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod minecraft
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod minecraft
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft took 0.001s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod mcp
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod mcp
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod mohist
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod mohist
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Mohist took 0.001s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod FML
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod FML
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Forge Mod Loader took 0.001s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod forge
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod forge
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Forge took 0.007s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod srparasites
+[16:54:58] [Server thread/INFO] [srparasites]: [MOD COMPATIBILITY] 0 of 2 modules activated
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod srparasites
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Scape and Run Parasites took 0.026s
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Finished: PostInitialization took 0.036s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod minecraft
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod minecraft
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft took 0.002s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod mcp
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod mcp
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.001s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod mohist
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod mohist
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Mohist took 0.000s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod FML
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod FML
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod forge
+[16:54:58] [Server thread/DEBUG] [FML]: Forge RecipeSorter Baking:
+[16:54:58] [Server thread/DEBUG] [FML]:   16: RecipeEntry("Before", UNKNOWN, )
+[16:54:58] [Server thread/DEBUG] [FML]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[16:54:58] [Server thread/DEBUG] [FML]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[16:54:58] [Server thread/DEBUG] [FML]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[16:54:58] [Server thread/DEBUG] [FML]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[16:54:58] [Server thread/DEBUG] [FML]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[16:54:58] [Server thread/DEBUG] [FML]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[16:54:58] [Server thread/DEBUG] [FML]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[16:54:58] [Server thread/DEBUG] [FML]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[16:54:58] [Server thread/DEBUG] [FML]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[16:54:58] [Server thread/DEBUG] [FML]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[16:54:58] [Server thread/DEBUG] [FML]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[16:54:58] [Server thread/DEBUG] [FML]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[16:54:58] [Server thread/DEBUG] [FML]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[16:54:58] [Server thread/DEBUG] [FML]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[16:54:58] [Server thread/DEBUG] [FML]:   1: RecipeEntry("After", UNKNOWN, )
+[16:54:58] [Server thread/DEBUG] [FML]: Sorting recipes
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod forge
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Forge took 0.012s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod srparasites
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod srparasites
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Scape and Run Parasites took 0.000s
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Finished: LoadComplete took 0.015s
+[16:54:58] [Server thread/DEBUG] [FML]: Freezing registries
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod minecraft
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod minecraft
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.001s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mcp
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mcp
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mohist
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mohist
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Mohist took 0.000s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FML
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FML
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.001s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod forge
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod forge
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.044s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod srparasites
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod srparasites
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Scape and Run Parasites took 0.001s
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.048s
+[16:54:58] [Server thread/DEBUG] [FML]: All registries frozen
+[16:54:58] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod minecraft
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod minecraft
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft took 0.000s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod mcp
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod mcp
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.002s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod mohist
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod mohist
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Mohist took 0.000s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod forge
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod forge
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.001s
+[16:54:58] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod srparasites
+[16:54:58] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod srparasites
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Scape and Run Parasites took 0.000s
+[16:54:58] [Server thread/DEBUG] [FML]: Bar Finished: ServerAboutToStart took 0.005s
+[16:54:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: "Preparing level "world""
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material FORGE_BUCKETFILLED with ID 4096:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_INFESTEDSTAIN with ID 4097:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_INFESTREMAIN with ID 4098:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_INFESTEDTRUNK with ID 4099:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_INFESTEDRUBBLE with ID 4100:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_INFESTEDBUSH with ID 4101:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_BLOODYICE with ID 4102:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_BIOMEHEART with ID 4103:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_COLONYHEART with ID 4104:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_COLONYOUTPOST with ID 4105:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_BIOMEPURIFIER with ID 4106:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITEBUSH with ID 4107:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITECANISTER with ID 4108:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITETRUNK with ID 4109:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITESTAIN with ID 4110:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITERUBBLE with ID 4111:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITESTRUCTURE with ID 4112:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITETHIN with ID 4113:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITESAPLING with ID 4114:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITEMOUTH with ID 4115:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITERUBBLEDENSE with ID 4116:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITERUBBLE_BONESTAIRS with ID 4117:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITESTAIN_FLESHSTAIRS with ID 4118:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITERUBBLE_SLABDOUBLE with ID 4119:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITETENDRIL with ID 4120:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITEFOG with ID 4121:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_SRPWEB with ID 4122:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_EVOLUTIONLURE with ID 4123:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_TUNNEL with ID 4124:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_GORE with ID 4125:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_CANISTERACTIVE with ID 4126:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_DISPATCHERN with ID 4127:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_INFESTEDORE with ID 4128:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ADA_SUMMONER_DROP with ID 4129:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ADA_YELLOWEYE_DROP with ID 4130:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ADA_MANDUCATER_DROP with ID 4131:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ADA_REEKER_DROP with ID 4132:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ADA_LONGARMS_DROP with ID 4133:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ADA_BOLSTER_DROP with ID 4134:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ADA_ARACHNIDA_DROP with ID 4135:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ADA_DEVOURER_DROP with ID 4136:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ASSIMILATED_FLESH with ID 4137:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_BECKON_DROP with ID 4138:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_DISPATCHER_DROP with ID 4139:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMTAB with ID 4140:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMASSIMILATE with ID 4141:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMEVOLVE with ID 4142:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMDEVOLVE with ID 4143:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMVARIANT with ID 4144:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMTHROW with ID 4145:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_EVCLOCK with ID 4146:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_NODECOMPASS with ID 4147:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_DRIED_TENDONS with ID 4148:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_HARDENED_BONE_HANDLE with ID 4149:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_INFECTIOUS_BLADE_FRAGMENT with ID 4150:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_LIVING_CORE with ID 4151:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_VILE_SHELL with ID 4152:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_BONE with ID 4153:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_LURECOMPONENT1 with ID 4154:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_LURECOMPONENT2 with ID 4155:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_LURECOMPONENT3 with ID 4156:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_LURECOMPONENT4 with ID 4157:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_LURECOMPONENT5 with ID 4158:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_LURECOMPONENT6 with ID 4159:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_DORPA with ID 4160:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFSQUID with ID 4161:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFBEAR with ID 4162:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFHUMAN with ID 4163:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFHUMANHEAD with ID 4164:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFENDERMAN with ID 4165:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFENDERMANHEAD with ID 4166:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFCOW with ID 4167:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFCOWHEAD with ID 4168:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFSHEEP with ID 4169:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFSHEEPHEAD with ID 4170:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFWOLF with ID 4171:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFWOLFHEAD with ID 4172:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFPIG with ID 4173:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFPIGHEAD with ID 4174:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFVILLAGER with ID 4175:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFVILLAGERHEAD with ID 4176:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INHOOS with ID 4177:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INHOOM with ID 4178:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFHORSE with ID 4179:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFHORSEHEAD with ID 4180:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFPLAYER with ID 4181:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFPLAYERHEAD with ID 4182:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFDRAGONE with ID 4183:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_INFDRAGONEHEAD with ID 4184:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_FERBEAR with ID 4185:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_FERHUMAN with ID 4186:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_FERCOW with ID 4187:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_FERENDERMAN with ID 4188:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_FERHORSE with ID 4189:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_FERPIG with ID 4190:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_FERSHEEP with ID 4191:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_FERVILLAGER with ID 4192:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_FERWOLF with ID 4193:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_HIGOLEM with ID 4194:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_HIBLAZE with ID 4195:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_HISKELETON with ID 4196:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_HOST with ID 4197:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_HOSTII with ID 4198:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_HEED with ID 4199:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_CRUXA with ID 4200:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_MES with ID 4201:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_LESH with ID 4202:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_SHYCO with ID 4203:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_CANRA with ID 4204:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_NOGLA with ID 4205:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_HULL with ID 4206:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_EMANA with ID 4207:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_BANO with ID 4208:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_WYMO with ID 4209:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_IKI with ID 4210:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_RANRAC with ID 4211:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_LUM with ID 4212:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_SHYCOADAPTED with ID 4213:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_CANRAADAPTED with ID 4214:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_NOGLAADAPTED with ID 4215:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_HULLADAPTED with ID 4216:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_EMANAADAPTED with ID 4217:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_BANOADAPTED with ID 4218:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_RANRACADAPTED with ID 4219:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_LODO with ID 4220:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_MUDO with ID 4221:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_NUUH with ID 4222:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_ATA with ID 4223:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_RATHOL with ID 4224:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_GOTHOL with ID 4225:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_BUTHOL with ID 4226:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_ANGED with ID 4227:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_VENKROL with ID 4228:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_VENKROLSII with ID 4229:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_VENKROLSIII with ID 4230:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_VENKROLSIV with ID 4231:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_TONRO with ID 4232:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_UNVO with ID 4233:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_NAK with ID 4234:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_DOD with ID 4235:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_DODSII with ID 4236:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_DODSIII with ID 4237:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_DODSIV with ID 4238:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_ALAFHA with ID 4239:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_GANRO with ID 4240:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_OMBOO with ID 4241:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_ESOR with ID 4242:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_ORCH with ID 4243:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_FLOG with ID 4244:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_JINJO with ID 4245:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_PHEON with ID 4246:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_VESTA with ID 4247:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_LENCIA with ID 4248:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_ELVIA with ID 4249:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_ORONCO with ID 4250:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_TERLA with ID 4251:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ITEMMOBSPAWNER_POD with ID 4252:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_SCYTHE with ID 4253:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_SCYTHE_SENTIENT with ID 4254:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_AXE with ID 4255:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_AXE_SENTIENT with ID 4256:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_SWORD with ID 4257:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_SWORD_SENTIENT with ID 4258:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_CLEAVER with ID 4259:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_CLEAVER_SENTIENT with ID 4260:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_BOW with ID 4261:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_BOW_SENTIENT with ID 4262:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_MAUL with ID 4263:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_MAUL_SENTIENT with ID 4264:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_LANCE with ID 4265:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_WEAPON_LANCE_SENTIENT with ID 4266:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ARMOR_HELM with ID 4267:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ARMOR_CHEST with ID 4268:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ARMOR_PANTS with ID 4269:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ARMOR_BOOTS with ID 4270:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ARMOR_HELM_SENTIENT with ID 4271:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ARMOR_CHEST_SENTIENT with ID 4272:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ARMOR_PANTS_SENTIENT with ID 4273:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_ARMOR_BOOTS_SENTIENT with ID 4274:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge item material SRPARASITES_PARASITERUBBLE_SLABHALF with ID 4275:0.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_INFESTEDSTAIN with ID 253.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_INFESTREMAIN with ID 254.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_INFESTEDTRUNK with ID 256.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_INFESTEDRUBBLE with ID 257.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_INFESTEDBUSH with ID 258.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_BLOODYICE with ID 259.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_BIOMEHEART with ID 260.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_COLONYHEART with ID 261.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_COLONYOUTPOST with ID 262.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_BIOMEPURIFIER with ID 263.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITEBUSH with ID 264.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITECANISTER with ID 265.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITETRUNK with ID 266.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITESTAIN with ID 267.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITERUBBLE with ID 268.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITESTRUCTURE with ID 269.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITETHIN with ID 270.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITESAPLING with ID 271.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITEMOUTH with ID 272.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITERUBBLEDENSE with ID 273.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITERUBBLE_BONESTAIRS with ID 274.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITESTAIN_FLESHSTAIRS with ID 275.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITERUBBLE_SLABHALF with ID 276.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITERUBBLE_SLABDOUBLE with ID 277.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITETENDRIL with ID 278.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_PARASITEFOG with ID 279.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_DEADBLOOD with ID 280.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_SRPWEB with ID 281.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_EVOLUTIONLURE with ID 282.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_TUNNEL with ID 283.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_GORE with ID 284.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_CANISTERACTIVE with ID 285.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_DISPATCHERN with ID 286.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge block material SRPARASITES_INFESTEDORE with ID 287.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge Villager Profession: MINECRAFT_FARMER Career: 6 ID: {2}.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge Villager Profession: MINECRAFT_LIBRARIAN Career: 7 ID: {2}.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge Villager Profession: MINECRAFT_PRIEST Career: 8 ID: {2}.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge Villager Profession: MINECRAFT_SMITH Career: 9 ID: {2}.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge Villager Profession: MINECRAFT_BUTCHER Career: 10 ID: {2}.
+[16:54:59] [Server thread/DEBUG] [Mohist]: Save: Injected new Forge Villager Profession: MINECRAFT_NITWIT Career: 11 ID: {2}.
+[16:55:00] [Server thread/INFO] [FML]: Loading dimension 0 (world)
+[16:55:01] [Server thread/INFO] [FML]: Loading dimension -1 (DIM-1)
+[16:55:01] [Server thread/INFO] [FML]: Loading dimension 1 (DIM1)
+[16:55:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0 (Seed:6853849611206564258 )
+[16:55:02] [Server thread/INFO] []: nanissss--------asdddddddddddddddddddddddddddddddddddddddd----
+[16:55:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 5%
+[16:55:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 10%
+[16:55:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 15%
+[16:55:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 20%
+[16:55:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 27%
+[16:55:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 35%
+[16:55:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 43%
+[16:55:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 48%
+[16:55:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 54%
+[16:55:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 60%
+[16:55:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 67%
+[16:55:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 77%
+[16:55:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 83%
+[16:55:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 91%
+[16:55:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 99%
+[16:55:16] [Server thread/DEBUG] [Mohist]: Server permissions file permissions.yml is empty, ignoring it
+[16:55:16] [Server thread/INFO] [Mohist]: Done (18.216s)! For help, type "help" or "?"
+[16:55:16] [Server thread/INFO] [Mohist]: Starting Minecraft server on 0.0.0.0:25565
+[16:55:17] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod minecraft
+[16:55:17] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod minecraft
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft took 0.000s
+[16:55:17] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod mcp
+[16:55:17] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod mcp
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[16:55:17] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod mohist
+[16:55:17] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod mohist
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Mohist took 0.000s
+[16:55:17] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod FML
+[16:55:17] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod FML
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Forge Mod Loader took 0.002s
+[16:55:17] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod forge
+[16:55:17] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod forge
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Forge took 0.020s
+[16:55:17] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod srparasites
+[16:55:17] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod srparasites
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Scape and Run Parasites took 0.008s
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarting took 0.031s
+[16:55:17] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod minecraft
+[16:55:17] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod minecraft
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft took 0.000s
+[16:55:17] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod mcp
+[16:55:17] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod mcp
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.002s
+[16:55:17] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod mohist
+[16:55:17] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod mohist
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Mohist took 0.000s
+[16:55:17] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod FML
+[16:55:17] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod FML
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[16:55:17] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod forge
+[16:55:17] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod forge
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[16:55:17] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod srparasites
+[16:55:17] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod srparasites
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Scape and Run Parasites took 0.000s
+[16:55:17] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarted took 0.003s
+[16:55:17] [Server thread/INFO] [Mohist]: Timings Reset
+[17:00:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
