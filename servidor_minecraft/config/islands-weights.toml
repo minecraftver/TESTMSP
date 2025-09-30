@@ -1,0 +1,91 @@
+
+#List of biomes and their weights, by default everything is set to 5 with a range of 0 - 10 as integers.
+#The list will also display modded biomes however it will not remove them once said mod is removed! The line(s) for the mod's biomes will not have any effect however
+#
+#TIP: Use CTRL+F (Find) to easily find the biome you're looking for
+[islands]
+	"minecraft:jungle_edge" = 5
+	"minecraft:modified_gravelly_mountains" = 5
+	"minecraft:snowy_mountains" = 5
+	"minecraft:giant_spruce_taiga" = 5
+	"minecraft:shattered_savanna_plateau" = 5
+	"minecraft:mountains" = 5
+	"minecraft:mushroom_fields" = 5
+	"minecraft:badlands_plateau" = 5
+	"minecraft:taiga" = 5
+	"minecraft:modified_wooded_badlands_plateau" = 5
+	"minecraft:dark_forest_hills" = 5
+	"minecraft:giant_spruce_taiga_hills" = 5
+	"minecraft:snowy_tundra" = 5
+	"minecraft:taiga_hills" = 5
+	"minecraft:eroded_badlands" = 5
+	"minecraft:frozen_river" = 5
+	"minecraft:desert_lakes" = 5
+	"minecraft:end_highlands" = 5
+	"minecraft:sunflower_plains" = 5
+	"minecraft:birch_forest" = 5
+	"minecraft:jungle_hills" = 5
+	"minecraft:swamp_hills" = 5
+	"minecraft:bamboo_jungle" = 5
+	"minecraft:badlands" = 5
+	"minecraft:savanna_plateau" = 5
+	"minecraft:shattered_savanna" = 5
+	"minecraft:beach" = 5
+	"minecraft:dark_forest" = 5
+	"minecraft:river" = 5
+	"minecraft:warped_forest" = 5
+	"minecraft:snowy_taiga" = 5
+	"minecraft:wooded_mountains" = 5
+	"minecraft:bamboo_jungle_hills" = 5
+	"minecraft:stone_shore" = 5
+	"minecraft:wooded_badlands_plateau" = 5
+	"minecraft:swamp" = 5
+	"minecraft:modified_jungle_edge" = 5
+	"minecraft:modified_badlands_plateau" = 5
+	"minecraft:snowy_taiga_hills" = 5
+	"minecraft:taiga_mountains" = 5
+	"minecraft:snowy_taiga_mountains" = 5
+	"minecraft:forest" = 5
+	"minecraft:desert_hills" = 5
+	"minecraft:basalt_deltas" = 5
+	"minecraft:gravelly_mountains" = 5
+	"minecraft:giant_tree_taiga" = 5
+	"minecraft:ice_spikes" = 5
+	"minecraft:end_midlands" = 5
+	"minecraft:desert" = 5
+	"minecraft:jungle" = 5
+	"minecraft:modified_jungle" = 5
+	"minecraft:snowy_beach" = 5
+	"minecraft:end_barrens" = 5
+	"minecraft:tall_birch_hills" = 5
+	"minecraft:flower_forest" = 5
+	"minecraft:tall_birch_forest" = 5
+	"minecraft:nether_wastes" = 5
+	"minecraft:soul_sand_valley" = 5
+	"minecraft:birch_forest_hills" = 5
+	"minecraft:the_end" = 5
+	"minecraft:wooded_hills" = 5
+	"minecraft:mountain_edge" = 5
+	"minecraft:small_end_islands" = 5
+	"minecraft:giant_tree_taiga_hills" = 5
+	"minecraft:crimson_forest" = 5
+	"minecraft:the_void" = 5
+	"minecraft:mushroom_field_shore" = 5
+	"minecraft:savanna" = 5
+	"minecraft:plains" = 5
+
+#List of biomes and their weights, by default everything is set to 5 with a range of 1 - 10 as integers.
+#The list will also display modded biomes however it will not remove them once said mod is removed! The line(s) for the mod's biomes will not have any effect however
+#TIP: Use CTRL+F (Find) to easily find the biome you're looking for
+[oceans]
+	"minecraft:deep_cold_ocean" = 5
+	"minecraft:cold_ocean" = 5
+	"minecraft:frozen_ocean" = 5
+	"minecraft:deep_frozen_ocean" = 5
+	"minecraft:ocean" = 5
+	"minecraft:deep_ocean" = 5
+	"minecraft:lukewarm_ocean" = 5
+	"minecraft:deep_warm_ocean" = 5
+	"minecraft:warm_ocean" = 5
+	"minecraft:deep_lukewarm_ocean" = 5
+
